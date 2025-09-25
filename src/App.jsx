@@ -5,9 +5,6 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const colourArray = ["0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"];
-  let time; 
-  
 
   return (
     <>
@@ -49,12 +46,16 @@ function App() {
       </div>
       <div className="card">
         <p>Click here to display the date time.</p>
-        <button onClick={() => time => Date().slice(15, 25)}>
-          The current time is: {time}
+        <button id="timebtn" onClick={() => document.getElementById("timebtn").innerHTML = `The current time is: ${Date().slice(15,25)}`}>
+          The current time is: 
         </button>
         <p>This is the websites second Card.</p>
       </div>
       <div className="card">
+        <p>Click here to return to the top of the website.</p>
+        <button id="scrollbtn"onClick={() => document.documentElement.scrollTop = 0}>
+          Return to top of page
+        </button>
         <p>This is the websites third Card.</p>
       </div>
       <div className="footer">
