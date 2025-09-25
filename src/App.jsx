@@ -8,6 +8,15 @@ function App() {
 
   return (
     <>
+      <div className="nav-bar">
+        <h1>React Landing Page</h1>
+        <ul>
+          <li>Home</li>
+          <li>Hero</li>
+          <li>Features</li>
+          <li>Footer</li>
+        </ul>
+      </div>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

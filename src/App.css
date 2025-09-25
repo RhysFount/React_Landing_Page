@@ -1,5 +1,6 @@
 #root {
   max-width: 1280px;
+  top:0px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -39,4 +40,35 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.nav-bar{
+  position:relative;
+  width:100vw;
+  height:20vh;
+  border-bottom-color:grey;
+  border-bottom:0.2em solid;
+  border-top-left-radius:0.2rem;
+  border-top-right-radius:0.2rem;
+  display:inline-flex;
+  margin-left:0rem;
+}
+
+.nav-bar h1{
+  position:relative;
+  left:0px;
+}
+
+.nav-bar ul{
+  position:relative;
+  display:inline-flex;
+  margin-left:20em;
+  gap:2em;
+  list-style:none;
+  align-items:center;
+  padding-bottom:2em;
+}
+
+.nav-bar ul li{
+  position:relative;
 }
