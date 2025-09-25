@@ -7,6 +7,7 @@
 }
 
 .logo {
+  margin-top:2em;
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -36,6 +37,7 @@
 
 .card {
   padding: 2em;
+  border-bottom: 0.2em solid;
 }
 
 .read-the-docs {
@@ -44,19 +46,23 @@
 
 .nav-bar{
   position:relative;
-  width:100vw;
-  height:20vh;
+  width:100%;
+  height:15%;
   border-bottom-color:grey;
   border-bottom:0.2em solid;
   border-top-left-radius:0.2rem;
   border-top-right-radius:0.2rem;
   display:inline-flex;
+  justify-content:space-around;
+  align-items:center;
   margin-left:0rem;
 }
 
 .nav-bar h1{
   position:relative;
   left:0px;
+  margin-top:0.5em;
+  font-size:2.8em;
 }
 
 .nav-bar ul{
@@ -71,4 +77,12 @@
 
 .nav-bar ul li{
   position:relative;
+}
+
+#movingbtn{
+  transition-duration: transform 3s;
+}
+
+.footer{
+  border-top:0.5em solid;
 }
